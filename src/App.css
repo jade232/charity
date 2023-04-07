@@ -1,0 +1,64 @@
+body {
+    background: url("./assets/bg_original.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centeringElement {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.ohmCircle {
+    animation: ohmCircle 8s forwards;
+}
+
+.ohmsymbol {
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    border-radius: 50%;
+}
+
+.animationWrapper {
+    width: 20%;
+    position: relative;
+    animation: faded 8s forwards;
+}
+
+@keyframes ohmCircle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+
+    }
+}
+
+@keyframes faded {
+    0% {
+        opacity: 0.5;
+    }
+
+    25% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
