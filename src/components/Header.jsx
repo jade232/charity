@@ -54,7 +54,8 @@ const Header = () => {
                 display: "grid",
                 placeItems: "center",
                 margin: "auto",
-                width: "fit-content"
+                width: "fit-content",
+                height: "100vh"
             }}>
                 <img
                     src={Namaste}
@@ -64,6 +65,7 @@ const Header = () => {
                         marginBottom: -15,
                         mixBlendMode: "darken"
                     }}
+                    className='welcomeHands'
                 />
             </div>
         </Box>

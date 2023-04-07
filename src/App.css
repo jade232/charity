@@ -1,8 +1,9 @@
-body {
-    background: url("./assets/bg_original.jpeg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.bg-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .centeringElement {
@@ -29,6 +30,10 @@ body {
     animation: faded 8s forwards;
 }
 
+.welcomeHands {
+    animation: hands 2s forwards;
+}
+
 @keyframes ohmCircle {
     from {
         transform: rotate(0deg);
@@ -37,6 +42,16 @@ body {
     to {
         transform: rotate(360deg);
 
+    }
+}
+
+@keyframes hands {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
     }
 }
 
