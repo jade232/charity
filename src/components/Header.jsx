@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 //img
 import headerImg from '../assets/pexels-binyamin-mellish-186078.png'
 import Namaste from "../assets/Namaste.png"
+import LoaderWrapper from "../assets/ohm_circel.png"
+import Ohm from "../assets/Om_symbol.png"
 
 const Header = () => {
 
@@ -55,8 +57,20 @@ const Header = () => {
                 placeItems: "center",
                 margin: "auto",
                 width: "fit-content",
-                height: "100vh"
+                // height: "100vh"
             }}>
+                <Box className='centeringElementHome'>
+                    <div className='animationWrapperHome'>
+                        <img src={LoaderWrapper} style={{
+                            width: "100%"
+                        }} alt="" className='ohmCircleHome' />
+                        <img src={Ohm} alt="" className='ohmsymbolHome' />
+                    </div>
+                </Box>
+                <Box>
+                    <Typography component='h4' sx={{ position: "relative" }}><span className='trustName'>OM Vishva Mahaguru Bhagavan Shetra</span></Typography>
+                    <Typography component="h5" sx={{ position: "relative", textAlign: "center" }}><span className='trustName'>Charitable Trust (R)</span></Typography>
+                </Box>
                 <img
                     src={Namaste}
                     alt="headerImg"

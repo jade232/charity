@@ -36,7 +36,8 @@ const Home = () => {
           </div>
           : <>
             <Header />
-            {/* <GetStarted /> */}
+            <GetStarted />
+            <GetInTouch />
           </>
       }
     </>

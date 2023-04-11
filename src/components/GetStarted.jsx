@@ -33,8 +33,8 @@ const GetStarted = () => {
             sx={{
                 py: 10,
                 px: 2,
-
             }}
+            className='getStartGrids'
         >
             <CustomGridItem item xs={12} sm={8} md={6}
                 component='section'

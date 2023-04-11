@@ -15,7 +15,7 @@ import Bg from "./assets/bg_original.jpeg"
 function App() {
   return (
     <>
-      <img src={Bg} alt="" className='bg-main' />
+      { <img src={Bg} alt="" className='bg-main' /> }
       <BrowserRouter>
         {/* <Navbar /> */}
         <Routes>

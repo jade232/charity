@@ -34,6 +34,38 @@
     animation: hands 2s forwards;
 }
 
+.getStartGrids {
+    position: relative;
+    background-color: transparent;
+    margin-top: 10%;
+}
+
+.ohmsymbolHome {
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    border-radius: 50%;
+}
+
+.animationWrapperHome {
+    width: 50%;
+    position: relative;
+    margin-top: 17%;
+}
+
+.centeringElementHome {
+    display: grid;
+    place-items: center;
+}
+
+.trustName {
+    font-size: 170%;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
 @keyframes ohmCircle {
     from {
         transform: rotate(0deg);
